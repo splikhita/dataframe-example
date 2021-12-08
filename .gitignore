@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#manually entered to see this file in gitbash
+#creds shouldn't go to the repo
+*.DS_Store
+.secrets
+*.pem
+*.ppk
