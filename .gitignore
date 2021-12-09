@@ -128,8 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#manually entered to see this file in gitbash
-#creds shouldn't go to the repo
+#Below are manually entered to see this file in gitbash. If the below lines are not included then this file doesn't appear
+#on gitbash when we use ls or git status
+#These are not included usually because they have credentials which shouldn't go to the repo
 *.DS_Store
 .secrets
 *.pem
